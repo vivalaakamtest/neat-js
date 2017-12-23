@@ -60,6 +60,6 @@ Neat.Controllers.Controller = class Controller {
   }
 
   run () {
-    setInterval(() => this.turn(), 100)
+    setInterval(() => this.turn(), 20)
   }
 }
